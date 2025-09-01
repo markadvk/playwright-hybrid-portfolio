@@ -1,0 +1,38 @@
+{
+  "name": "playwright-hybrid-portfolio",
+  "version": "1.0.0",
+  "description": "Hybrid Playwright framework for UI + API automation, designed with modular structure, POM, fixtures, and project dependencies.",
+  "main": "index.js",
+  "author": "Geetanjali",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui-tests",
+    "test:api": "npx playwright test tests/api-tests",
+    "test:api:mock": "cross-env USE_MOCK=true npm run test:api",
+    "test:api:real": "cross-env USE_MOCK=false npm run test:api",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "UI",
+    "API",
+    "hybrid-framework",
+    "portfolio"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "cross-env": "^10.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
