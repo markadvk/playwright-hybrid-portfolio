@@ -26,6 +26,7 @@ yarn-error.log*
 .env
 .env.local
 .env.*.local
+src/storage/auth.json
 
 # Editor / IDE
 .vscode/

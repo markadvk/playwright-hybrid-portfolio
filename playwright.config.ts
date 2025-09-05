@@ -29,7 +29,7 @@ export default defineConfig({
     {
       name: 'ui-tests',
       use: {
-        baseURL: 'https://markadvk.github.io/rapidtest/',
+        baseURL: 'https://markadvk.github.io/verifykoders/demos/',
         ...devices['Desktop Chrome'],
         storageState: 'src/storage/auth.json',
       },
