@@ -1,5 +1,7 @@
 # 🚀 Playwright Hybrid Test Automation Framework
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 A **robust**, **scalable**, and **modular** hybrid automation framework built using `Playwright` and `TypeScript`.  
 Designed for both **UI and API automation**, it follows industry best practices with a clean architecture, reusable components, and flexible test execution.  
 
@@ -110,9 +112,9 @@ playwright-hybrid-framework/
 
 ## 🌐 Demo Website  
 
-All UI tests are validated against my custom site:  
+All test scenarios were designed and validated using playground my own hosted website:
 
-🔗 **RapidTest** – [https://markadvk.github.io/rapidtest/](https://markadvk.github.io/rapidtest/)  
+🔗 **VerifyKoders** – [verifykoders-playground/](https://markadvk.github.io/verifykoders/demos/)
 
 Includes:  
 - Login flows  
@@ -137,4 +139,24 @@ Includes:
 This Playwright Hybrid Framework is **production-ready**, **scalable**, and **future-proof**.  
 It’s ideal for clients who want **UI + API automation combined** with clean design and reporting.  
 
-📬 Let’s bring **speed, quality, and reliability** to your testing process!  
+📬 Let’s bring **speed, quality, and reliability** to your testing process!
+
+📬 [Contact Me](https://markadvk.github.io/verifykoders/contact/) — your test coverage is one message away.
+
+---
+
+## 🔖 About / Contact
+
+Maintained by VerifyKoders — QA & Automation Portfolio
+
+🌐 Website: https://markadvk.github.io/verifykoders/
+
+▶️ YouTube: https://www.youtube.com/@verifykoders
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE)
+
+© 2025 VerifyKoders. All rights reserved.
